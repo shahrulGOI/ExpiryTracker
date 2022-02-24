@@ -1,0 +1,52 @@
+<div class="page has-header">
+    <div class="header indigo">
+      <div class="left">
+          <button class="icon ion-android-arrow-back" onclick="backPage()"></button>
+      </div>
+      <h1>New expiration</h1>
+    </div>
+    <div class="list">
+      <div class="item">
+        <label class="text-indigo" for="title">Title</label>
+        <input type="text" id="title">
+      </div>
+      <div class="item">
+        <label class="text-indigo" for="category">Category </label>
+        <select id="category">
+            <option value="1">Vehicle</option>
+            <option value="2">Food</option>
+            <option value="3">Insurance</option>
+            <option value="4">Rent</option>
+        </select>
+      </div>
+      <div class="item">
+          <label class="text-indigo" for="exDate">Expiry Date</label>
+          <input type="date" id="exDate">
+      </div>
+      <div class="item">
+        <label class="text-indigo" for="cycle">Cycle </label>
+        <select id="cycle">
+            <option value="1">Yearly</option>
+            <option value="2">Monthly</option>
+            <option value="3">Weekly</option>
+            <option value="3">None</option>
+        </select>
+      </div>
+      <div class="item">
+        <label class="text-indigo" for="reminder">Reminder</label>
+        <input type="date" id="reminder">
+      </div>
+      <div class="item">
+        <label class="text-indigo" for="price">Expiry Price</label>
+        <input type="text" id="price">
+      </div>
+      <div class="item">
+        <label class="text-indigo" for="notes">Notes</label>
+        <input type="text" id="notes">
+      </div>
+      <div class="item">
+        <button class="indigo radius full" onclick="saveRecord()">Add into list</button>
+      </div>
+  </div>
+  
+  <!--doesnt need script or doctype part etc-->
